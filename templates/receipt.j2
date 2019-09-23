@@ -1,0 +1,26 @@
+{{ align_positions('right') }}{{ date }} {{time}}
+{{ max_print_speed(15) }}{{ set_code_page(1) }}
+{{ align_positions('center') }}
+{{ logo(0, 14) }}
+{{ align_positions('center') }}{{ set_print_mode(56) }}{{ cancel_double_height() }}
+{{ max_print_speed(52) }}
+Pizzabestellung
+{{ set_print_mode(0) }}{{ align_positions('left') }}
+{{ set_print_mode(56) }}{{ align_positions('center') }}{{ ordday }} {{ ordtime }}{{ cancel_double_height() }}{{ set_print_mode(0) }}
+{{ align_positions('left') }}
+Bestellung von {{ set_print_mode(8) }}{{ user }}:
+{{ set_print_mode(56) }}{{ align_positions('left') }}
+*{{ set_print_mode(48) }} {{pizza}}
+{{ set_print_mode(8) }}{{align_positions('left') }}
+{{size}}
+{{ align_positions('left') }}{{ set_print_mode(0) }}
+{{extras}}
+{{ set_print_mode(0) }}{{ align_positions('center') }}
++++ Abholzettel +++
+Zettel bitte für Abholung aufheben.
+{{ align_positions('center') }}
+{{ max_print_speed(15) }}{{ set_code_page(1) }}
+
+{{ max_print_speed(52) }}
+
+{{ CUT }}
