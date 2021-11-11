@@ -111,7 +111,7 @@ def render(template: str, receipt: Receipt) -> str:
         # current data
         date=datetime.now().strftime('%d-%m-%Y'),
         # current time
-        time=datetime.now().strftime('%M:%H'),
+        time=datetime.now().strftime('%H:%S'),
 
         # ### user supplied ###
         # day the order was created
